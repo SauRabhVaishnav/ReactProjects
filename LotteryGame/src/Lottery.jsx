@@ -14,10 +14,10 @@ export default function Lottery({ n, winCondition }) {
     return (
         <div className="lottery">
             <h1>Lottery Game</h1>
-            <h3>{isWinning && "Congratulations , you won!"}</h3>
+            <h3>{isWinning && "Congratulations ,  You won! 🎉"}</h3>
             <Ticket ticket={ticket} />
             <br />
-            <Button onClick={buyTicket}/>
+            <Button onClick={buyTicket} />
         </div>
     )
 }
